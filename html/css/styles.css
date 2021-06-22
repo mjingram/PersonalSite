@@ -1,0 +1,88 @@
+body{
+  font-family: 'Benne', serif;
+  text-align: center;
+  background-color: #3F72AF;
+  color: #fff;
+
+}
+h1{
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  margin: 15% auto 2% auto;
+}
+
+hr{
+  border: solid #F9F7F7 6px;
+  border-bottom: 0;
+  width: 100%;
+  margin: 15% auto 2% auto;
+}
+.profilePic{
+  width: 25%;
+  height: 25%;
+}
+.about{
+  padding: 2% 10%;
+}
+.aboutHeader{
+  
+  padding-bottom: 2%;
+}
+
+.skillsUL{
+
+  list-style-type: none;
+}
+
+.skillsHeader{
+  padding: 2%;
+}
+
+.projectSection{
+  padding: 2% 10%;
+}
+
+.projectHeader{
+  padding-bottom: 2%;
+}
+
+.hr2{
+  border: solid #F9F7F7 6px;
+  border-bottom: 0;
+  width: 100%;
+  margin: 2% auto;
+}
+
+.form-group{
+  margin: 2% 10%;
+
+}
+
+.myFooter{
+  background-color: #112D4E;
+}
+
+.footName{
+  font-family: 'Dancing Script', cursive;
+  padding: 1%;
+}
+
+.footJobTitle{
+  padding: 1%;
+}
+.footLinks{
+  font-family: 'Dancing Script', cursive;
+  padding: 1%;
+}
+
+.footList >li{
+  padding: 1%;
+}
+
+a:link{
+  color: #3F72AF;
+}
+
+a:visited{
+  color: #3F72AF;
+}
