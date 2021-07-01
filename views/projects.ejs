@@ -1,0 +1,74 @@
+<%- include("partials/header") -%>
+<!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #112D4E;">
+<div class="container">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse"  data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+
+        <ul class="navbar-nav nav-fill w-100">
+
+            <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+            </li>
+
+            <li class="nav-item ">
+                <a class="nav-link" href="/about">About</a>
+            </li>
+
+
+            <li class="nav-item">
+                <a class="nav-link" href="/contact">Contact</a>
+            </li>
+
+
+            <li class="nav-item active">
+                <a class="nav-link active" href="/projects">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/resume">Resume</a>
+            </li>
+
+        </ul>
+
+    </div>
+</div>
+</nav>
+<!-- canvas -->
+<canvas id="canvas1"></canvas>
+<!-- Projects -->
+<h2 class="projectHeader">Projects</h2>
+<div class="projectSection">
+
+  <div id="carouselExampleControls" class="carousel slide carousel-fade" data-interval="false">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <h4>Published Biostatistics Research on Taste Genetics</h4>
+      <h6>Consulting Work for Denver Museum of Nature and Science</h6>
+      <embed src="/images/Food_Quality_Prefernce_Publication.pdf" width="85%" height="1100px;" />
+    </div>
+    <div class="carousel-item">
+      <h4>Master's Thesis:</h4>
+      <h6>Classifying Political Articles From Fox News And CNN Using Random Forests<h6>
+      <embed src="/images/IngramMastersProjectPaper.pdf" width="85%" height="1100px;" />
+    </div>
+    <div class="carousel-item">
+      <h4>Project Title</h4>
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+</div>
+<%- include("partials/footer") -%>
