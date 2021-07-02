@@ -142,7 +142,7 @@ body{
   font-style: bold;
   font-size: 1.5rem;
 }
-
+/* Project Section */
 .projectSection{
   background-color:#112D4E ;
   border-radius: 15px;
@@ -168,17 +168,28 @@ body{
 
 }
 
-.ProfilePicCarousel{
-  padding: 2%;
-  width: 5%;
-  height: 5%;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-}
-
+/* Project Section carousel */
 .carousel{
   height:100%;
   width: 100%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+  height: 85px;
+  width: 85px;
+}
+
+.statResearch,
+.mastersThesis{
+  width: 85%;
+  height:1100px;
+}
+
+
+.bandWebPic{
+  height: auto;
+  width: 85%;
 }
 
 .resumeHeader{

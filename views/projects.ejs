@@ -43,32 +43,36 @@
 <h2 class="projectHeader">Projects</h2>
 <div class="projectSection">
 
-  <div id="carouselExampleControls" class="carousel slide carousel-fade" data-interval="false">
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <h4>Published Biostatistics Research on Taste Genetics</h4>
       <h6>Consulting Work for Denver Museum of Nature and Science</h6>
-      <embed src="/images/Food_Quality_Prefernce_Publication.pdf" width="85%" height="1100px;" />
+      <embed src="/images/Food_Quality_Prefernce_Publication.pdf"  class="statResearch"/>
     </div>
     <div class="carousel-item">
       <h4>Master's Thesis:</h4>
       <h6>Classifying Political Articles From Fox News And CNN Using Random Forests<h6>
-      <embed src="/images/IngramMastersProjectPaper.pdf" width="85%" height="1100px;" />
+      <embed src="/images/IngramMastersProjectPaper.pdf" class="mastersThesis" />
     </div>
     <div class="carousel-item">
-      <h4>Project Title</h4>
-      <img src="..." class="d-block w-100" alt="...">
+      <h4>Local Cover Band Full Stack Website</h4>
+      <h6>Click the image!<h6>
+        <a href="https://www.funkshackband.com/">
+      <img src="/images/BandWebsitePic.png" class="bandWebPic" alt="Band Pic">
+      </a>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+
 </div>
 
 </div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">fNext</span>
+</button>
 <%- include("partials/footer") -%>
