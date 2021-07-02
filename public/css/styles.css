@@ -62,6 +62,9 @@ body{
   flex-wrap: nowrap;
   overflow-y: scroll;
 }
+.gitLink{
+  color: #00BFFF
+}
 
 .aboutInner{
   height: 95%;
@@ -122,11 +125,11 @@ body{
 }
 
 .contactSection{
-  margin-top: 2%;
+  margin-top: 1%;
   margin-left: 5%;
   margin-right: 5%;;
-  margin-bottom: 2%;
-  padding: 2%;
+  margin-bottom: 1%;
+  padding: 1%;
 }
 .contactHeader{
 
